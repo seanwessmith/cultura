@@ -14,6 +14,8 @@
 		98BF738B2BE196FC0003712F /* culturaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF738A2BE196FC0003712F /* culturaTests.swift */; };
 		98BF73952BE196FC0003712F /* culturaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF73942BE196FC0003712F /* culturaUITests.swift */; };
 		98BF73972BE196FC0003712F /* culturaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF73962BE196FC0003712F /* culturaUITestsLaunchTests.swift */; };
+		98BF73A52BE19B9C0003712F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF73A42BE19B9C0003712F /* CameraView.swift */; };
+		98BF73B52BE1A4B80003712F /* ImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF73B42BE1A4B80003712F /* ImageAnalyzer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		98BF73902BE196FC0003712F /* culturaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = culturaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BF73942BE196FC0003712F /* culturaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = culturaUITests.swift; sourceTree = "<group>"; };
 		98BF73962BE196FC0003712F /* culturaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = culturaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98BF73A32BE198330003712F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98BF73A42BE19B9C0003712F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		98BF73B42BE1A4B80003712F /* ImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalyzer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +99,13 @@
 		98BF73782BE196EE0003712F /* cultura */ = {
 			isa = PBXGroup;
 			children = (
+				98BF73A32BE198330003712F /* Info.plist */,
 				98BF73792BE196EE0003712F /* culturaApp.swift */,
 				98BF737B2BE196EE0003712F /* ContentView.swift */,
 				98BF737D2BE196FB0003712F /* Assets.xcassets */,
 				98BF737F2BE196FB0003712F /* Preview Content */,
+				98BF73A42BE19B9C0003712F /* CameraView.swift */,
+				98BF73B42BE1A4B80003712F /* ImageAnalyzer.swift */,
 			);
 			path = cultura;
 			sourceTree = "<group>";
@@ -259,6 +267,8 @@
 			files = (
 				98BF737C2BE196EE0003712F /* ContentView.swift in Sources */,
 				98BF737A2BE196EE0003712F /* culturaApp.swift in Sources */,
+				98BF73A52BE19B9C0003712F /* CameraView.swift in Sources */,
+				98BF73B52BE1A4B80003712F /* ImageAnalyzer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +435,8 @@
 				DEVELOPMENT_TEAM = THCPLKGSZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cultura/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app uses the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +466,8 @@
 				DEVELOPMENT_TEAM = THCPLKGSZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cultura/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "this app uses the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
